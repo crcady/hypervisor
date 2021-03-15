@@ -67,7 +67,6 @@ promote:
 
     xor rax, rax
     mov ax, [r15 + 0x130]
-    and ax, 0xF8
 
     add rdx, rax
 
